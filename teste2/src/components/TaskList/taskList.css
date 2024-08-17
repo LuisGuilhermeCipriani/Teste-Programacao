@@ -1,0 +1,150 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 100vh;
+    padding-bottom: 30px;
+    background-color: #4d4d4d;
+    padding: 10px;
+}
+
+.btnAdicionar {
+    padding: 10px;
+    background-color: #1a8cff;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btnAdicionar:hover {
+    transition: all 0.2s;
+    background-color: #0066cc;
+}
+
+.campoAdicionaTarefa {
+    margin-top: -350px;
+    display: flex;
+    padding: 15px 10px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #8c8c8c;
+    flex-direction: row;
+}
+
+.titulo {
+    color: #fff;
+    font-size: 15px;
+}
+
+.textArea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    height: 200px;
+    text-align: center;
+}
+
+.form {
+    flex-direction: column;
+    display: flex;
+}
+
+.scroll {
+    height: 580px;
+    overflow-y: scroll;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.campoListagemTarefas {
+    padding: 15px 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #8c8c8c;
+    flex-direction: row;
+    margin-left: 10px;
+    height: 650px;
+    width: 500px;
+}
+
+.tarefa {
+    padding: 10px;
+    width: 100%;
+    border: 0.1rem solid #4d4d4d;
+    color: #fff;
+    background-color: #737373;
+}
+
+.semRegistros {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.campoStatus {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4d4d4d;
+    padding: 5px;
+}
+
+.nomeStatus {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.status1 {
+    color: #ff6666;
+}
+
+.status2 {
+    color: #00e600;
+}
+
+.btnStatus1 {
+    padding: 5px 30px;
+    width: 150px;
+    background-color: #ccffcc;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnStatus1:hover {
+    transition: all 0.2s;
+    background-color: #99ff99;
+}
+
+.btnStatus2 {
+    padding: 5px 30px;
+    width: 150px;
+    background-color: #ffcccc;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnStatus2:hover {
+    transition: all 0.2s;
+    background-color: #ff9999;
+}
+
+.botoesRadio {
+    margin-bottom: 20px;
+}
+
+.label {
+    margin: 5px;
+    color: #fff;
+}
